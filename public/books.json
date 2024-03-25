@@ -10,7 +10,8 @@
       "category": "Mystery",
       "tags": ["Suspense", "Psychological"],
       "publisher": "Moonlit Press",
-      "yearOfPublishing": 2023
+      "yearOfPublishing": 2023,
+      "description": "In the mysterious town of Ravenswood, where secrets lurk in every shadow, Detective Sarah Holloway finds herself entangled in a web of deception and illusion. As she delves deeper into the case of a missing heiress, she uncovers a dark conspiracy that threatens to shatter the fragile peace of the town. With danger lurking at every turn, Sarah must race against time to unravel the truth before it's too late. 'Shadows of Illusion' is a gripping tale of suspense and intrigue that will keep you guessing until the very end."
     },
     {
       "bookId": "2",
@@ -23,7 +24,9 @@
       "category": "Thriller",
       "tags": ["Gothic", "Supernatural"],
       "publisher": "Mystic Books",
-      "yearOfPublishing": 2022
+      "yearOfPublishing": 2022,
+      "description": "In the fog-shrouded moors of Yorkshire, a young woman discovers an ancient curse that threatens to consume her family's legacy. As she delves deeper into the secrets of her ancestors, she uncovers a sinister plot that spans generations. With the help of a mysterious stranger, she must unravel the mystery of the mist before it devours everything she holds dear. 'Echoes in the Mist' is a chilling tale of suspense and terror that will leave you breathless."
+
     },
     {
       "bookId": "3",
@@ -36,7 +39,9 @@
       "category": "Suspense",
       "tags": ["Thriller", "Mystery"],
       "publisher": "Enigma Publications",
-      "yearOfPublishing": 2024
+      "yearOfPublishing": 2024,
+      "description": "In the sleepy town of Briarwood, whispers of a dark secret echo through the night. When a series of mysterious deaths shake the community to its core, journalist Emma Daniels is drawn into a web of deceit and betrayal. As she digs deeper, she uncovers a truth more horrifying than she could ever imagine. With danger closing in from all sides, Emma must race against time to expose the killer before she becomes the next victim. 'Whispers in the Dark' is a heart-pounding thriller that will keep you guessing until the final page."
+
     },
     {
       "bookId": "4",
@@ -49,7 +54,9 @@
       "category": "Psychological",
       "tags": ["Mystery", "Drama"],
       "publisher": "Ethereal Books",
-      "yearOfPublishing": 2023
+      "yearOfPublishing": 2023,
+      "description": "In the sprawling metropolis of New Arcadia, a troubled detective is haunted by the ghosts of his past. When a series of brutal murders rock the city, he is thrust into a deadly game of cat and mouse with a cunning adversary. As he unravels the mystery, he discovers that the key to solving the case may lie buried in his own tortured psyche. 'The Forgotten Key' is a gripping psychological thriller that will keep you on the edge of your seat until the very end."
+
     },
     {
       "bookId": "5",
@@ -62,7 +69,9 @@
       "category": "Thriller",
       "tags": ["Suspense", "Gothic"],
       "publisher": "Darkened Tales",
-      "yearOfPublishing": 2022
+      "yearOfPublishing": 2022,
+      "description": "In the shadowy streets of Victorian London, a young woman finds herself thrust into a world of intrigue and danger. As she delves deeper into the dark underbelly of society, she uncovers a sinister plot that threatens to consume everything she holds dear. With the help of a brooding detective, she must race against time to stop the forces of evil before it's too late. 'Crimson Dawn' is a gripping tale of suspense and romance that will keep you turning the pages until the very end."
+
     },
     {
       "bookId": "6",
@@ -75,7 +84,9 @@
       "category": "Supernatural",
       "tags": ["Mystery", "Fantasy"],
       "publisher": "Eclipse Publishing",
-      "yearOfPublishing": 2024
+      "yearOfPublishing": 2024,
+      "description": "In a world where reality and fantasy collide, a young man discovers that he is the key to unlocking an ancient prophecy. As he embarks on a perilous journey through the realms of magic and mystery, he must confront his own inner demons and face the ultimate challenge. With danger lurking at every turn, he must rely on his wits and courage to survive the trials ahead. 'Beyond the Veil' is an epic fantasy adventure that will transport you to a world of wonder and enchantment."
+
     },
     {
       "bookId": "7",
@@ -88,7 +99,9 @@
       "category": "Psychological",
       "tags": ["Suspense", "Horror"],
       "publisher": "Nightfall Books",
-      "yearOfPublishing": 2023
+      "yearOfPublishing": 2023,
+      "description": "In the sleepy town of Willow Creek, a series of bizarre murders sends shockwaves through the community. As Detective Alex Brooks delves deeper into the case, he uncovers a tangled web of lies and deceit that threatens to tear the town apart. With each clue leading to more questions than answers, Alex must confront his own demons and unravel the mystery before it's too late. 'Twisted Reflections' is a chilling psychological thriller that will keep you on the edge of your seat until the final page."
+
     },
     {
       "bookId": "8",
@@ -101,7 +114,9 @@
       "category": "Gothic",
       "tags": ["Supernatural", "Mystery"],
       "publisher": "Midnight Mysteries",
-      "yearOfPublishing": 2024
+      "yearOfPublishing": 2024,
+      "description": "In the sprawling metropolis of New Arcadia, a troubled detective is haunted by the ghosts of his past. When a series of brutal murders rock the city, he is thrust into a deadly game of cat and mouse with a cunning adversary. As he unravels the mystery, he discovers that the key to solving the case may lie buried in his own tortured psyche. 'The Forgotten Key' is a gripping psychological thriller that will keep you on the edge of your seat until the very end."
+
     },
     {
       "bookId": "9",
@@ -114,6 +129,8 @@
       "category": "Fantasy",
       "tags": ["Supernatural", "Adventure"],
       "publisher": "Twilight Books",
-      "yearOfPublishing": 2022
+      "yearOfPublishing": 2022,
+      "description": "In the shadowy streets of Victorian London, a young woman finds herself thrust into a world of intrigue and danger. As she delves deeper into the dark underbelly of society, she uncovers a sinister plot that threatens to consume everything she holds dear. With the help of a brooding detective, she must race against time to stop the forces of evil before it's too late. 'Crimson Dawn' is a gripping tale of suspense and romance that will keep you turning the pages until the very end."
+
     }
   ]
