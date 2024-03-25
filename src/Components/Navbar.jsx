@@ -3,17 +3,17 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <header className="p-4 ">
+      <header className="lg:p-4 p-2">
         <div className="container flex justify-between  mx-auto items-center">
           <div>
-            <h1 className="text-xl font-medium">Book Vibe</h1>
+            <h1 className="lg:text-xl font-medium">Book Vibe</h1>
           </div>
-          <ul className=" hidden space-x-3 lg:flex items-center">
+          <ul className=" lg:space-x-3 flex items-center">
             <NavLink to='/' className={({isActive})=>isActive ?'text-success border-2 border-green-600 pb-2 pt-1 rounded-lg':''}>
               <a
                 rel="noopener noreferrer"
                 href="#"
-                className="flex items-center px-4 -mb-1  dark:border-  border-violet-400"
+                className="flex items-center lg:px-4 px-2 -mb-1  dark:border-  border-violet-400"
               >
                 Home
               </a>
@@ -22,7 +22,7 @@ const Navbar = () => {
               <a
                 rel="noopener noreferrer"
                 href="#"
-                className="flex items-center px-4 -mb-1 dark:border-"
+                className="flex items-center lg:px-4 px-2 -mb-1 dark:border-"
               >
                 Listed Books
               </a>
@@ -32,7 +32,7 @@ const Navbar = () => {
               <a
                 rel="noopener noreferrer"
                 href="#"
-                className="flex items-center px-4 -mb-1 "
+                className="flex items-center lg:px-4 px-2 -mb-1 "
               >
                 Pages to Read
               </a>
