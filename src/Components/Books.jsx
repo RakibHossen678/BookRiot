@@ -9,7 +9,7 @@ const Books = () => {
       .then((res) => res.json())
       .then((data) => setBooks(data));
   }, []);
-  console.log(books);
+//   console.log(books);
   return (
     <div>
       <div className="text-center font-bold text-4xl">
