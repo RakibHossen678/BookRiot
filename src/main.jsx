@@ -13,8 +13,6 @@ import Home from './Pages/Home';
 import ListedBooks from './Pages/ListedBooks';
 import PagesToRead from './Pages/PagesToRead';
 import BookDetails from './Components/BookDetails';
-import ReadBook from './Components/ReadBook';
-import Wishlist from './Components/Wishlist';
 const router = createBrowserRouter([
   {
     path: "/",

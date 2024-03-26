@@ -10,8 +10,8 @@ const ListedBooks = () => {
     <div>
        <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
       <TabList>
-        <Tab>Title 1</Tab>
-        <Tab>Title 2</Tab>
+        <Tab>Read Books</Tab>
+        <Tab>Wishlist</Tab>
 
       </TabList>
      

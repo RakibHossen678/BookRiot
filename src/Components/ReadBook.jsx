@@ -6,12 +6,12 @@ const ReadBook = () => {
     const [books ,setBooks]=useState([]);
     useEffect(()=>{
         const storedBook=getSaveData()
-        if (setBooks !== 'undefined'){
+        if (setBooks){
 
             setBooks(storedBook)
         }
     },[])
-    console.log(books)
+    // console.log(books)
     return (
         <div>
             {

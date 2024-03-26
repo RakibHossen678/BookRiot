@@ -2,20 +2,20 @@ import { CiLocationOn } from "react-icons/ci";
 import { BsPeople } from "react-icons/bs";
 import { MdInsertPageBreak } from "react-icons/md";
 import PropTypes from 'prop-types';
-const ReadBookCard = ({ book }) => {
-  const {
-    bookName,
-    author,
-    image,
-    tags,
-    category,
-    rating,
-    totalPages,
-    publisher,
-    yearOfPublishing,
-  } = book;
-  return (
-    <div className="flex items-center border-2 rounded-xl mb-7 my-10 gap-5 py-2">
+const WishlistCard = ({book}) => {
+    const {
+        bookName,
+        author,
+        image,
+        tags,
+        category,
+        rating,
+        totalPages,
+        publisher,
+        yearOfPublishing,
+      } = book;
+    return (
+        <div className="flex items-center border-2 rounded-xl mb-7 my-10 gap-5 py-2">
       <div className="mx-2 my-2 bg-gray-200 rounded-lg">
       <div className="w-40 flex justify-center items-center  py-auto">
         <img className="py-5 w-ful " src={image} alt="" />
@@ -53,10 +53,9 @@ const ReadBookCard = ({ book }) => {
         </div>
       </div>
     </div>
-  );
+    );
 };
-ReadBookCard.propTypes ={
+WishlistCard.propTypes ={
     book:PropTypes.object
 }
-
-export default ReadBookCard;
+export default WishlistCard;
