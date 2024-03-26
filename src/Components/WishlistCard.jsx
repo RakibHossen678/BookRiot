@@ -2,8 +2,10 @@ import { CiLocationOn } from "react-icons/ci";
 import { BsPeople } from "react-icons/bs";
 import { MdInsertPageBreak } from "react-icons/md";
 import PropTypes from 'prop-types';
+import { Link } from "react-router-dom";
 const WishlistCard = ({book}) => {
     const {
+      bookId,
         bookName,
         author,
         image,
@@ -49,7 +51,10 @@ const WishlistCard = ({book}) => {
         <div className="flex justify-between items-center py-2">
             <h1 className="bg-blue-300 px-2  rounded-full">Category: {category}</h1>
             <h1 className="bg-yellow-200 px-2 rounded-full">Rating: {rating}</h1>
+            <Link to={`/book/${bookId}`}>
             <button className="px-2 py-2 rounded-full bg-green-400 ">View Details</button>
+            </Link>
+
         </div>
       </div>
     </div>

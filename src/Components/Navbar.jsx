@@ -37,6 +37,24 @@ const Navbar = () => {
                 Pages to Read
               </a>
             </NavLink>
+            <NavLink to='/author' className={({isActive})=>isActive ?'text-success border-2 border-green-600 pb-2 pt-1 rounded-lg':''}>
+              <a
+                rel="noopener noreferrer"
+                href="#"
+                className="flex items-center lg:px-4 px-2 -mb-1 "
+              >
+                Author
+              </a>
+            </NavLink>
+            <NavLink to='/contact' className={({isActive})=>isActive ?'text-success border-2 border-green-600 pb-2 pt-1 rounded-lg':''}>
+              <a
+                rel="noopener noreferrer"
+                href="#"
+                className="flex items-center lg:px-4 px-2 -mb-1 "
+              >
+                Contact
+              </a>
+            </NavLink>
           </ul>
           <div className="items-center flex-shrink-0 hidden lg:flex space-x-2">
             <button className="self-center px-8 py-3 rounded bg-[#23BE0A] text-white font-medium">Sign in</button>
