@@ -1,9 +1,10 @@
+import ContactCard from "../Components/ContactCard";
 
 
 const Contact = () => {
     return (
         <div>
-            <h1>Contact</h1>
+            <ContactCard></ContactCard>
         </div>
     );
 };
