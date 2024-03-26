@@ -26,13 +26,13 @@ const BookDetails = () => {
   }
 
   return (
-    <div className="flex py-20">
-      <div className="w-[50%]">
+    <div className="flex lg:flex-row flex-col py-20">
+      <div className="lg:w-[50%]">
         <div className="">
-          <img className="w-[60%] object-cover" src={image} alt="" />
+          <img className="w-[60%]  object-cover" src={image} alt="" />
         </div>
       </div>
-      <div className="w-[50%]">
+      <div className="lg:w-[50%] px-2">
         <div>
           <h1 className="text-4xl font-semibold  py-3">{bookName}</h1>
           <div className="text-lg pb-3">
