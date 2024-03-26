@@ -1,9 +1,11 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import { saveBookToLocal } from "../utils/localStorage";
+import { saveWishlistBookToLocal } from "../utils/wishlistLoacalStorage";
 const BookDetails = () => {
   const books = useLoaderData();
   const { bookId } = useParams();
   const book = books.find((book) => book.bookId === bookId);
-  console.log(bookId, book);
+  // console.log(bookId, book);
   const {
     description,
     bookName,
@@ -16,12 +18,18 @@ const BookDetails = () => {
     publisher,
     yearOfPublishing,
   } = book;
+  const handleReadBook=()=>{
+    saveBookToLocal(book)
+  }
+  const handWishlist=()=>{
+    saveWishlistBookToLocal(book)
+  }
 
   return (
     <div className="flex py-20">
       <div className="w-[50%]">
         <div className="">
-          <img className="w-[70%] object-cover" src={image} alt="" />
+          <img className="w-[60%] object-cover" src={image} alt="" />
         </div>
       </div>
       <div className="w-[50%]">
@@ -59,10 +67,12 @@ const BookDetails = () => {
           </p>
         </div>
         <div className="space-x-7 py-4">
-          <button type="button" className=" hover:border-2 font-semibold rounded bg-[#50B1C9] hover:bg-transparent hover:text-black px-7 text-white py-3">
+          <button onClick={()=>handleReadBook()} type="button" className=" hover:border-2 font-semibold rounded bg-[#189b2b] hover:bg-transparent hover:text-black px-7 text-white py-3">
           Read
           </button>
-          <button type="button" className=" font-semibold hover:border-2 rounded bg-[#50B1C9] hover:bg-transparent hover:text-black px-7 text-white py-3 ">
+          <button 
+          onClick={()=>handWishlist()}
+          type="button" className=" font-semibold hover:border-2 rounded bg-[#50B1C9] hover:bg-transparent hover:text-black px-7 text-white py-3 ">
           Wishlist
           </button>
         </div>
