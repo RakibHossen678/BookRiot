@@ -1,7 +1,11 @@
+import Chart from "../Components/Chart";
+
+
 const PagesToRead = () => {
+    
     return (
         <div>
-            <h1>pages</h1>
+            <Chart></Chart>
         </div>
     );
 };
