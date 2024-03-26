@@ -4,6 +4,7 @@ import WishlistCard from "./WishlistCard";
 
 const Wishlist = () => {
   const [books, setBooks] = useState([]);
+  console.log(books)
   useEffect(() => {
     const storedBook = getSaveDataOfWishlist();
     if (setBooks) {
