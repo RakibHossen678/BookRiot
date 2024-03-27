@@ -1,8 +1,15 @@
-# React + Vite
+BookRiot
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [BookRiot](https://ubiquitous-puffpuff-8b1b82.netlify.app/list) 
+
+## Features and Characteristics:
+- When you click View The List button it takes you to the Listed Books page.
+-Clicking on a book's card will redirect to the Book Details page where you can see the details of the Books.
+-Clicking "Read" or "Wishlist" for the first time will show a toast alert with a meaningful message. The clicked item will be added to the listed books page.
+-On the Pages to Read page you can see how many books you have selected to read and how many pages are in that book
+-On the listed book page you can sort your added book by selecting specific field such as Ratings,Publish Year and Number of page

@@ -67,7 +67,7 @@ const BookDetails = () => {
           </p>
         </div>
         <div className="space-x-7 py-4">
-          <button onClick={()=>handleReadBook()} type="button" className=" hover:border-2 font-semibold rounded bg-[#189b2b] hover:bg-transparent hover:text-black px-7 text-white py-3">
+          <button onClick={()=>handleReadBook()} type="button" className=" border-2 font-semibold rounded hover:bg-[#189b2b] bg-transparent hover:text-white hover:border-none px-7  py-3">
           Read
           </button>
           <button 
