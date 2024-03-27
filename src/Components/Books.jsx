@@ -12,7 +12,7 @@ const Books = () => {
 //   console.log(books);
   return (
     <div>
-      <div className="text-center font-bold text-4xl">
+      <div className="text-center font-bold text-4xl py-10">
         <h1>Books</h1>
       </div>
       <div className="grid lg:grid-cols-3 grid-cols-1 px-10 gap-10">

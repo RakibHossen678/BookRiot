@@ -1,19 +1,12 @@
-// import { useEffect, useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 import "react-tabs/style/react-tabs.css";
 import ReadBook from "../Components/ReadBook";
 import Wishlist from "../Components/Wishlist";
 import { useState } from "react";
-// import { getSaveData } from "../utils/localStorage";
+
 const ListedBooks = () => {
   const [tabIndex, setTabIndex] = useState(0);
-
-  // useEffect(()=>{
-  //   setSortBook(sortBook)
-  // },[])
-  // console.log(sortBook)
-
   return (
     <div>
       <div className="bg-gray-300 h-20 my-7 flex justify-center items-center rounded-2xl ">

@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 const AuthorCard = ({ book }) => {
     const {
         author,
@@ -80,5 +81,7 @@ const AuthorCard = ({ book }) => {
     </div>
   );
 };
-
+AuthorCard.propTypes={
+  book:PropTypes.object
+}
 export default AuthorCard;

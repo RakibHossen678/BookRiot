@@ -6,7 +6,7 @@ const Navbar = () => {
       <header className="lg:p-4 p-2">
         <div className="container flex justify-between  mx-auto items-center">
           <div>
-            <h1 className="lg:text-xl font-medium">Book Vibe</h1>
+            <h1 className="lg:text-2xl font-medium">BookRiot</h1>
           </div>
           <ul className=" lg:space-x-3 flex items-center">
             <NavLink to='/' className={({isActive})=>isActive ?'text-success border-2 border-green-600 pb-2 pt-1 rounded-lg':''}>

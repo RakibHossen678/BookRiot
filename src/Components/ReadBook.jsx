@@ -1,21 +1,16 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import { getSaveData } from "../utils/localStorage";
 import ReadBookCard from "./ReadBookCard";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
 const ReadBook = () => {
     
-    // console.log(sortBook)
+   
     
     const [books, setBooks] = useState(()=>getSaveData()||[]);
     const [sortBook, setSortBook] = useState(()=>getSaveData()||[]);
-    //   useEffect(() => {
-//     const storedBook = getSaveData();
-//     if (setBooks) {
-//       setBooks(storedBook);
-//       setSortBook(storedBook);
-//     }
-//   }, []);
+   
+   
   const handleSorting = (data) => {
     if (data === "rating") {
       const ratingSort = books.sort((a, b) => b.rating - a.rating);
@@ -32,7 +27,7 @@ const ReadBook = () => {
     }
   };
 
-  // console.log(books)
+ 
   return (
     <>
       <div>

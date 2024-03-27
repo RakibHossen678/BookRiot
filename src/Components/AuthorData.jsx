@@ -11,7 +11,7 @@ const AuthorData = () => {
     }, []);
     console.log(books)
     return (
-        <div className="grid lg:grid-cols-3 grid-cols-1 gap-10 py-10">
+        <div className="grid lg:grid-cols-3 grid-cols-1 gap-10 py-10 pl-12">
             {
                 books.map(book=><AuthorCard key={book.bookId} book={book}></AuthorCard>)
             }
