@@ -1,5 +1,5 @@
 BookRiot
-- [BookRiot](https://ubiquitous-puffpuff-8b1b82.netlify.app/list) 
+- [BookRiot](https://ubiquitous-puffpuff-8b1b82.netlify.app/) 
 
 ## Features and Characteristics:
 - ** When you click View The List button it takes you to the Listed Books page.
